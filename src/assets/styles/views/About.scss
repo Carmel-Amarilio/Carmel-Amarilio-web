@@ -1,0 +1,38 @@
+.about {
+    padding-block: 150px;
+
+
+    .head-page {
+        position: relative;
+        font-size: 35px;
+        text-transform: uppercase;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            height: 5px;
+            width: 3rem;
+            background: $prime-clr;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+        }
+    }
+
+
+    p {
+        padding-block: 20px;
+    }
+
+    p,
+    ul {
+        color: $txt-clr3;
+
+        span,
+        a {
+            color: $txt-clr3;
+            font-weight: 700;
+        }
+    }
+}

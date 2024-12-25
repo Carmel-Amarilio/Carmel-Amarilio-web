@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    font-size: rem(18px);
+    margin: 0;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.home,
+.about,
+.projects,
+.skills {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $main-clr;
+    padding-block: 110px;
+
+    .sub-header-page,
+    .head-page {
+        text-align: center;
+        margin-block-end: 50px;
+        max-width: 900px;
+        align-self: center;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.projects {
+    .prj-list {
+        .prj {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 5rem;
+            padding-block: 50px;
+
+            .imgs {
+                // border: 2px solid lightgray;
+            }
+
+            .rsis-image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 'center';
+                width: min-content;
+            }
+
+            .rsis-container {
+                div {
+                    width: 50px;
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                    transition: all;
+                }
+            }
+
+
+
+            .prj-details {
+                padding-block: 30px;
+
+
+                .prj-name {
+                    font-size: 2em;
+                }
+
+                .prim-btn {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 15px 55px;
+                }
+            }
+
+
+        }
+    }
+}

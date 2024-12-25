@@ -1,0 +1,35 @@
+.app-footer {
+    background-color: black;
+    color: white;
+
+    p {
+        font-size: 0.7em;
+    }
+
+    section {
+        padding-block: 50px;
+        border-bottom: 1px solid lightgray;
+
+        .name {
+            max-width: 400px;
+        }
+
+        .social {
+            button {
+                padding: 0;
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        padding-block: 30px;
+        margin: auto;
+
+    }
+
+}

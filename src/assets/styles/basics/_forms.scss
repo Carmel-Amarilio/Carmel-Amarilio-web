@@ -1,0 +1,43 @@
+button {
+    border: 0;
+    color: whitesmoke;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prim-btn {
+    background-color: $prime-clr;
+    color: $btn-txt-clr1;
+    border-radius: 5px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 75px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-6px);
+    }
+}
+
+.head-page {
+    position: relative;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50px;
+        height: 5px;
+        width: 3rem;
+        background: $prime-clr;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px;
+    }
+}

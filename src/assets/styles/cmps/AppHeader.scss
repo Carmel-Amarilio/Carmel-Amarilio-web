@@ -1,0 +1,28 @@
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    background-color: $header-clr;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+
+    .profile {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    nav {
+        .link-btn {
+            color: $txt-clr1;
+            text-transform: uppercase;
+            font-size: 1em;
+            font-weight: 700;
+
+            &:hover {
+                color: $prime-clr;
+            }
+        }
+    }
+}
