@@ -6,9 +6,7 @@
             gap: 5rem;
             padding-block: 50px;
 
-            .imgs {
-                // border: 2px solid lightgray;
-            }
+
 
             .rsis-image {
                 width: 100%;
@@ -47,6 +45,30 @@
             }
 
 
+            @include for-normal-layout {
+                grid-template-columns: 1fr;
+                grid-template-rows: max-content max-content;
+                gap: 0rem;
+                padding-block: 30px;
+
+                .prj-details {
+                    gap: 15px;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+
+            @include for-narrow-layout {
+                .prj-details {
+                    .btn-sec {
+                        gap: 10px;
+
+                    }
+                }
+            }
         }
+
     }
+
+
 }

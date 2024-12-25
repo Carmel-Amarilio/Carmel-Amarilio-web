@@ -1,8 +1,18 @@
 .skills {
     background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../../../../src/assets/img/common-bg.svg);
 
-    .skills-list {
+    .skills-co {
         max-width: 1000px;
-        align-self: center;
+        justify-self: center;
     }
+
+
+    @include for-normal-layout {
+        .card-grid {
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            grid-gap: 30px;
+        }
+    }
+
+
 }

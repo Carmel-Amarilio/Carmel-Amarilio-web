@@ -19,7 +19,7 @@ export function Projects() {
                         <div className="prj-details flex justify-center column space-between ">
                             <h1 className="prj-name">Aircnc</h1>
                             <p>Aircnc was my capstone project for a full-stack development bootcamp, inspired by Airbnb. Built with JavaScript, React, SCSS, Node.js, and MongoDB, it delivers a pixel-perfect design and a seamless user experience, showcasing my skills in modern web development.</p>
-                            <div className="flex gap30">
+                            <div className="btn-sec flex gap30">
                                 <a href="https://aircnc-atzm.onrender.com/#/stay" target="_blank" rel="noopener noreferrer"><button className="prim-btn">Web</button></a>
                                 <a href="https://github.com/Carmel-Amarilio/aircnc" target="_blank" rel="noopener noreferrer"><button className="prim-btn">Code</button></a>
                             </div>

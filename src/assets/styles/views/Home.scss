@@ -25,13 +25,30 @@
         text-align: center;
 
         h1 {
-            font-size: 50px;
+            font-size: 3em;
             text-transform: uppercase;
             margin: 0;
         }
 
         p {
             max-width: 700px;
+        }
+    }
+
+    @include for-normal-layout {
+        .content {
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+
+    }
+
+    @include for-narrow-layout {
+        height: 120vh;
+
+        .social {
+            display: none;
         }
     }
 

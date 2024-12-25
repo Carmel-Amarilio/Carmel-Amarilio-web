@@ -10,6 +10,8 @@ export { default as youtubeIconW } from "./icons/yt-ico.png";
 export { default as phoneIconW } from "./icons/phone-call-white-icon.png";
 export { default as gmailIconW } from "./icons/Gmail_Logo_White_512px.png";
 
+export { default as hamburgerIcon } from "./icons/hamburger-menu-svgrepo-com.svg";
+
 import { default as gitIcon } from "./icons/git-icon-logo-svgrepo-com.svg";
 import { default as reactIcon } from "./icons/react-svgrepo-com.svg";
 import { default as htmlIcon } from "./icons/html-5-svgrepo-com.svg";

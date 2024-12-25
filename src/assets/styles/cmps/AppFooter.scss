@@ -24,6 +24,25 @@
                 }
             }
         }
+
+        @include for-narrow-layout {
+            flex-direction: column-reverse;
+            gap: 40px;
+
+            .social,
+            .name {
+                align-self: start;
+            }
+
+            .social {
+                button {
+                    img {
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+            }
+        }
     }
 
     .copyright {
@@ -31,5 +50,9 @@
         margin: auto;
 
     }
+
+
+
+
 
 }

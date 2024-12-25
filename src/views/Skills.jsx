@@ -3,7 +3,7 @@ import { allSkillsIcons } from "../assets/img/indexIcons";
 export function Skills() {
     return (
         <section className="skills main-container full">
-            <section className="flex column">
+            <section className="skills-co flex column">
                 <h1 className="head-page">Skills</h1>
                 <h3 className="sub-header-page">Here you will find a list of the skills and technologies I am familiar with, each with its own use cases and examples of projects where I`ve applied them:</h3>
 
