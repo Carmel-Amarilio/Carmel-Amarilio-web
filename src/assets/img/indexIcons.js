@@ -1,3 +1,6 @@
+export { default as hamburgerIcon } from "./icons/hamburger-menu-svgrepo-com.svg";
+export { default as meImg } from "./CarmelProfile.jpg";
+
 export { default as githubIcon } from "./icons/icons8-github.svg";
 export { default as linkedinIcon } from "./icons/icons8-linkedin.svg";
 export { default as phoneIcon } from "./icons/icons8-phone.svg";
@@ -10,7 +13,6 @@ export { default as youtubeIconW } from "./icons/yt-ico.png";
 export { default as phoneIconW } from "./icons/phone-call-white-icon.png";
 export { default as gmailIconW } from "./icons/Gmail_Logo_White_512px.png";
 
-export { default as hamburgerIcon } from "./icons/hamburger-menu-svgrepo-com.svg";
 
 import { default as gitIcon } from "./icons/git-icon-logo-svgrepo-com.svg";
 import { default as reactIcon } from "./icons/react-svgrepo-com.svg";

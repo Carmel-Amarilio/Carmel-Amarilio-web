@@ -4,13 +4,13 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 export function AllImgs({ imgsUrl }) {
     const [imgsHeight, setImgsHeight] = useState(380);
-    const [imgsWidth, setImgsWidth] = useState(380);
+    const [imgsWidth, setImgsWidth] = useState(window.innerWidth - 20);
 
     useEffect(() => {
         const handleResize = () => {
             setImgsHeight(window.innerWidth > 650 ? 380 : 200);
             if (window.innerWidth > 970) setImgsWidth(window.innerWidth / 5 * 3)
-            else setImgsWidth(window.innerWidth + (window.innerWidth < 500 ? -50 : -100))
+            else setImgsWidth(window.innerWidth + (window.innerWidth < 500 ? -20 : -100))
         };
         handleResize();
         window.addEventListener('resize', handleResize);

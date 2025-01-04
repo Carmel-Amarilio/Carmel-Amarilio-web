@@ -33,6 +33,8 @@
             text-transform: uppercase;
             font-size: 1em;
             font-weight: 700;
+            text-align: start;
+            padding-inline-start: 0;
 
             &:hover {
                 color: $prime-clr;
@@ -42,16 +44,13 @@
     }
 
     .nav-back {
+        display: none;
         position: absolute;
         left: 0;
         top: 0;
         width: 100vw;
         height: 100vh;
         z-index: 5;
-
-        &.close {
-            display: none;
-        }
     }
 
     @include for-normal-layout {
@@ -69,6 +68,14 @@
             top: 90px;
             right: 0;
             z-index: 6;
+
+            &.close {
+                display: none;
+            }
+        }
+
+        .nav-back {
+            display: block;
 
             &.close {
                 display: none;

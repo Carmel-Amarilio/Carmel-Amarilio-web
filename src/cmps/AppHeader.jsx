@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom";
-import { hamburgerIcon } from "../assets/img/indexIcons";
+import { hamburgerIcon, meImg } from "../assets/img/indexIcons";
 import { useState } from "react";
 
-export function AppHeader() {
+export function AppHeader({ onChengRout }) {
     const [isNav, setIsNav] = useState(false)
 
     function toggleNav() {
         setIsNav(!isNav)
     }
+
     return (
         <header className="app-header main-container full">
             <section className=" flex align-center space-between">
                 <article className="flex align-center gap10 ">
-                    <img src="../../src/assets/img/CarmelProfile.jpg" alt="" className="profile" />
+                    <img src={meImg} alt="" className="profile" />
                     <Link className="link-btn" to="/"><h2 className="name">Carmel Amarilio</h2></Link>
                 </article>
 
                 <button className="van-btn" onClick={toggleNav}><img src={hamburgerIcon} /></button>
 
                 <nav className={`flex gap20 ${isNav ? '' : 'close'}`} onClick={toggleNav}>
-                    <Link className="link-btn" to="/">Home</Link>
-                    <Link className="link-btn" to="/about">About</Link>
-                    <Link className="link-btn" to="/projects">Projects</Link>
-                    <Link className="link-btn" to="/skills">Skills</Link>
+                    <button className="link-btn" onClick={() => onChengRout("/")}>Home</button>
+                    <button className="link-btn" onClick={() => onChengRout("/about")}>About</button>
+                    <button className="link-btn" onClick={() => onChengRout("/projects")}>Projects</button>
+                    <button className="link-btn" onClick={() => onChengRout("/skills")}>Skills</button>
                 </nav>
                 <div onClick={toggleNav} className={`nav-back ${isNav ? '' : 'close'}`}></div>
             </section>

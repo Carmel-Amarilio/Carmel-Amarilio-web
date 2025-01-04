@@ -14,7 +14,7 @@ body {
     margin: 0;
     margin: auto;
     // overflow-x: hidden;
-    min-width: 380px;
+    min-width: 350px;
 
 }
 
@@ -22,7 +22,6 @@ body {
 .about,
 .projects,
 .skills {
-    // width: 98vw;
     min-height: 100vh;
     background-color: $main-clr;
     padding-block: 110px;
