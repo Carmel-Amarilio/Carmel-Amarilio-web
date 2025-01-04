@@ -55,7 +55,7 @@ export function AppContent() {
     <>
       <AppHeader onChengRout={onChengRout} />
       <main>
-        <div ref={homeRef}> <Home /> </div>
+        <div ref={homeRef}> <Home onChengRout={onChengRout} /> </div>
         <div ref={aboutRef}> <About /> </div>
         <div ref={projectsRef}> <Projects /> </div>
         <div ref={skillsRef}> <Skills /> </div>

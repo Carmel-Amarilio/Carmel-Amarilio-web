@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { hamburgerIcon, meImg } from "../assets/img/indexIcons";
 import { useState } from "react";
 
@@ -14,7 +13,7 @@ export function AppHeader({ onChengRout }) {
             <section className=" flex align-center space-between">
                 <article className="flex align-center gap10 ">
                     <img src={meImg} alt="" className="profile" />
-                    <Link className="link-btn" to="/"><h2 className="name">Carmel Amarilio</h2></Link>
+                    <button className="link-btn" onClick={() => onChengRout("/")}><h2 className="name">Carmel Amarilio</h2></button>
                 </article>
 
                 <button className="van-btn" onClick={toggleNav}><img src={hamburgerIcon} /></button>

@@ -4,16 +4,14 @@ export function About() {
         <section className="about main-container full " >
             <section className="flex column">
                 <h1 className="head-page">About Me</h1>
-                <h3 className="sub-header-page">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h3>
+                <h3 className="sub-header-page">Here you will find information about me, my work experience, and my education.</h3>
 
                 <h2>Get to know me!</h2>
-                <p>Practical Engineer in Electronics and Computer Science with a strong set
+                <p>My name is Carmel Amarilio, I am an Practical Engineer in Electronics and Computer Science with a strong set
                     of skills in full stack development. Loves coding, currently employed as
-                    coding instructor, was an officer in the IDF Technology, exhibiting
+                    coding instructor, was an officer in the IDF Technology Corps, exhibiting
                     exceptional problem-solving, team management and innovative thinking
-                    skills. Seeking a position that will take me to the next level where I can
-                    apply my educational background and experience, effectively
-                    contributing to a technology team.</p>
+                    skills.</p>
 
                 <h2>Work Experience</h2>
                 <ul>

@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { githubIcon, gmailIcon, linkedinIcon, phoneIcon, youtubeIcon } from "../assets/img/indexIcons";
 
-export function Home() {
+export function Home({ onChengRout }) {
     return (
         <section className="home">
             <nav className="social flex column gap10">
@@ -15,9 +14,9 @@ export function Home() {
             <article className="content flex column align-center justify-center gap30">
                 <h1>Hey, I`m Carmel Amarilio</h1>
 
-                <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
+                <p>A Full Stack Developer specializing in designing and building websites and applications with a focus on functionality, innovation, and delivering user-centered solutions.</p>
 
-                <Link className="link-btn" to="/projects">  <button className="prim-btn"> Projects</button></Link>
+                <button className="link-btn" onClick={() => onChengRout("/projects")}>  <button className="prim-btn"> Projects</button></button>
             </article>
         </section>
     )

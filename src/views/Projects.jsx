@@ -8,7 +8,7 @@ export function Projects() {
         <section className="projects main-container full " >
             <section className="flex column">
                 <h1 className="head-page">Projects</h1>
-                <h3 className="sub-header-page">Here you will find some of the personal and clients projects that I created with each project containing its own case study</h3>
+                <h3 className="sub-header-page">Here you will find some of the projects that I created with each project containing its own case study</h3>
 
                 <section className="prj-list flex column gap30">
 
@@ -32,7 +32,7 @@ export function Projects() {
                         </div>
                         <div className="prj-details flex justify-center column space-between ">
                             <h1 className="prj-name">Tzeva Adom Statistics</h1>
-                            <p>Tzeva Adom Statistics is a project I built during the Iron Swords war to help users understand the alert situation in their area. Developed with TypeScript, React, SCSS, Material-UI, and Google Maps, it provides a clear, user-friendly interface for real-time insights.</p>
+                            <p>Tzeva Adom Statistics is a project I built during the Iron Swords war to help users understand the alert situation in their area. Developed with TypeScript, React, SCSS, Material-UI, and Google Maps API, it provides a clear, user-friendly interface for real-time insights.</p>
                             <div className="flex gap30">
                                 <a href="https://carmel-amarilio.github.io/Tzeva-Adom-Statistics/#/?nav=map&startDate=2023-10-07&endDate=2024-12-23&threatSelect=0,2,3,5&areaSelect=1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,32,34,35" target="_blank" rel="noopener noreferrer"><button className="prim-btn">Web</button></a>
                                 <a href="https://github.com/Carmel-Amarilio/Tzeva-Adom-Statistics" target="_blank" rel="noopener noreferrer"><button className="prim-btn">Code</button></a>

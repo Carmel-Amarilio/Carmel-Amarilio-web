@@ -1,6 +1,8 @@
 .projects {
     .prj-list {
+
         .prj {
+            position: relative;
             display: grid;
             grid-template-columns: 3fr 2fr;
             gap: 5rem;
@@ -32,10 +34,10 @@
             .prj-details {
                 padding-block: 30px;
 
-
                 .prj-name {
                     font-size: 2em;
                 }
+
 
                 .prim-btn {
                     font-size: 20px;
@@ -49,12 +51,22 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: max-content max-content;
                 gap: 0rem;
-                padding-block: 30px;
+                padding-block: 75px 30px;
 
                 .prj-details {
                     gap: 15px;
                     text-align: center;
                     align-items: center;
+
+
+                    .prj-name {
+                        position: absolute;
+                        top: 0;
+                    }
+                }
+
+                .prj-name {
+                    order: -1;
                 }
             }
 
