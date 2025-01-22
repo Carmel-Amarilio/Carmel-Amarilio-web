@@ -9,7 +9,8 @@ export function AllImgs({ imgsUrl }) {
     useEffect(() => {
         const handleResize = () => {
             setImgsHeight(window.innerWidth > 650 ? 380 : 200);
-            if (window.innerWidth > 970) setImgsWidth(window.innerWidth / 5 * 3)
+            if (window.innerWidth > 1350) setImgsWidth(1300 / 5 * 3)
+            else if (window.innerWidth > 970) setImgsWidth((window.innerWidth - 100) / 5 * 3)
             else setImgsWidth(window.innerWidth + (window.innerWidth < 500 ? -20 : -100))
         };
         handleResize();

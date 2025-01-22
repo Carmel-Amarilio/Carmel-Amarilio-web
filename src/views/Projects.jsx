@@ -4,6 +4,7 @@ import { AllImgs } from "../cmps/AllImgs";
 import { airCncImgs, appsusImgs, apptImgs, gameImgs, memeitImgs, mirrobImgs, TzevaAdomStatisticsImgs } from "../assets/img/indexPrjImg";
 
 export function Projects() {
+
     return (
         <section className="projects main-container full " >
             <section className="flex column">
