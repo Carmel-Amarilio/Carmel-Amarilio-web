@@ -1,3 +1,4 @@
+
 export { default as hamburgerIcon } from "./icons/hamburger-menu-svgrepo-com.svg";
 export { default as meImg } from "./CarmelProfile.jpg";
 
@@ -14,6 +15,13 @@ export { default as phoneIconW } from "./icons/phone-call-white-icon.png";
 export { default as gmailIconW } from "./icons/Gmail_Logo_White_512px.png";
 
 
+import { default as awsIcon } from "./icons/aws.svg";
+import { default as terraformIcon } from "./icons/terraform-icon-svgrepo-com.svg";
+import { default as KubernetesIcon } from "./icons/kubernetes-svgrepo-com.svg";
+import { default as dockerIcon } from "./icons/docker-svgrepo-com.svg";
+import { default as jenkinsIcon } from "./icons/jenkins-svgrepo-com.svg";
+import { default as argoCDIcon } from "./icons/ArgoCD.png";
+import { default as jfrogIcon } from "./icons/jfrog-svgrepo-com.svg";
 import { default as gitIcon } from "./icons/git-icon-logo-svgrepo-com.svg";
 import { default as reactIcon } from "./icons/react-svgrepo-com.svg";
 import { default as htmlIcon } from "./icons/html-5-svgrepo-com.svg";
@@ -37,6 +45,13 @@ import { default as cloudinaryIcon } from "./icons/cloudinary-svgrepo-com.svg";
 import { default as npmIcon } from "./icons/npm-svgrepo-com.svg";
 
 export const allSkillsIcons = [
+    { name: "amazon web services", icon: awsIcon },
+    { name: "Terraform", icon: terraformIcon },
+    { name: "Kubernetes", icon: KubernetesIcon },
+    { name: "Docker", icon: dockerIcon },
+    { name: "jenkins", icon: jenkinsIcon },
+    { name: "argoCD", icon: argoCDIcon },
+    { name: "jfrog", icon: jfrogIcon },
     { name: "React", icon: reactIcon },
     { name: "Vuejs", icon: vuejsIcon },
     { name: "Angular", icon: angularIcon },

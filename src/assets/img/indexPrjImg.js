@@ -1,3 +1,12 @@
+import { default as DevOpsProject1 } from "./prj/DevOps-Project/1.png";
+import { default as DevOpsProject2 } from "./prj/DevOps-Project/2.png";
+import { default as DevOpsProject3 } from "./prj/DevOps-Project/3.png";
+import { default as DevOpsProject4 } from "./prj/DevOps-Project/4.png";
+import { default as DevOpsProject5 } from "./prj/DevOps-Project/5.png";
+import { default as DevOpsProject6 } from "./prj/DevOps-Project/6.png";
+
+export const DevOpsProjectImgs = [DevOpsProject1, DevOpsProject2, DevOpsProject3, DevOpsProject4, DevOpsProject5, DevOpsProject6]
+
 import { default as aircnc1 } from "./prj/aircnc/1.jpeg";
 import { default as aircnc2 } from "./prj/aircnc/2.jpeg";
 import { default as aircnc3 } from "./prj/aircnc/3.jpeg";

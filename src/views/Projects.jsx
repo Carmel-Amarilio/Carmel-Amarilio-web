@@ -1,7 +1,7 @@
 import { AllImgs } from "../cmps/AllImgs";
 
 
-import { airCncImgs, appsusImgs, apptImgs, gameImgs, memeitImgs, mirrobImgs, TzevaAdomStatisticsImgs } from "../assets/img/indexPrjImg";
+import { DevOpsProjectImgs, airCncImgs, appsusImgs, apptImgs, gameImgs, memeitImgs, mirrobImgs, TzevaAdomStatisticsImgs } from "../assets/img/indexPrjImg";
 
 export function Projects() {
 
@@ -12,6 +12,19 @@ export function Projects() {
                 <h3 className="sub-header-page">Here you will find some of the projects that I created with each project containing its own case study</h3>
 
                 <section className="prj-list flex column gap30">
+
+                    <article className="prj">
+                        <div className="imgs">
+                            <AllImgs imgsUrl={DevOpsProjectImgs} />
+                        </div>
+                        <div className="prj-details flex justify-center column space-between ">
+                            <h1 className="prj-name">DevOps Project</h1>
+                            <p>Built and deployed a Flask-based BookStore app using a full CI/CD pipeline. Utilized Docker, Kubernetes, and ArgoCD for deployment, with Terraform for infrastructure provisioning. Monitoring and alerting handled via Prometheus and Grafana. Hosted on AWS, demonstrating end-to-end DevOps automation and modern cloud-native practices.</p>
+                            <div className="flex gap30">
+                                <a href="https://github.com/Carmel-Amarilio/DevOps-Portfolio" target="_blank" rel="noopener noreferrer"><button className="prim-btn">CODE</button></a>
+                            </div>
+                        </div>
+                    </article>
 
                     <article className="prj">
                         <div className="imgs">

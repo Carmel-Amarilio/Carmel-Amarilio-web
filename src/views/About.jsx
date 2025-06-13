@@ -7,11 +7,11 @@ export function About() {
                 <h3 className="sub-header-page">Here you will find information about me, my work experience, and my education.</h3>
 
                 <h2>Get to know me!</h2>
-                <p>My name is Carmel Amarilio, I am an Practical Engineer in Electronics and Computer Science with a strong set
-                    of skills in full stack development. Loves coding, currently employed as
-                    coding instructor, was an officer in the IDF Technology Corps, exhibiting
-                    exceptional problem-solving, team management and innovative thinking
-                    skills.</p>
+                <p>My name is Carmel Amarilio. I am a Practical Engineer in Electronics and Computer Science with hands-on experience
+                    in full-stack development and professional expertise in DevOps engineering. I'm passionate about coding, automation,
+                    and building scalable infrastructure. Currently working as a coding instructor and DevOps developer, I also served as
+                    an officer in the IDF Technology Corps, demonstrating strong problem-solving abilities, team leadership, and innovative thinking.
+                </p>
 
                 <h2>Work Experience</h2>
                 <ul>
@@ -23,6 +23,7 @@ export function About() {
 
                 <h2>Education:</h2>
                 <ul>
+                    <li>2025: <a href="https://www.develeap.com/bootcamp/" target="_blank" rel="noopener noreferrer">Develeap</a>, DevOps Developer Bootcamp</li>
                     <li>2023: <a href="https://www.coding-academy.org/" target="_blank" rel="noopener noreferrer">Coding Academy</a>, Full-stack Developer Bootcamp</li>
                     <li>2023: Udemy, Unity Game Developer 2D </li>
                     <li>2017-2019: Ort Hermelin College, Practical Engineer in Electronics and Computer Science</li>
