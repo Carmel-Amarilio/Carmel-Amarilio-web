@@ -6,7 +6,9 @@ export function AppFooter() {
             <section className="flex align-center space-between">
                 <article className="name flex column gap20 ">
                     <h1>Carmel Amarilio</h1>
-                    <p>A Full Stack Developer specializing in designing and building websites and applications with a focus on functionality, innovation, and delivering user-centered solutions.</p>
+                    <p>
+                        A DevOps Engineer with hands-on experience in full stack development, combining automation, functionality, and user-centered design. With a background in Electronics and Computer Science, I focus on building scalable and efficient systems.
+                    </p>
                 </article>
 
                 <article className="social flex column gap20">
