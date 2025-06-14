@@ -23,7 +23,7 @@ export function About() {
 
                 <h2>Education:</h2>
                 <ul>
-                    <li>2025: <a href="https://www.develeap.com/bootcamp/" target="_blank" rel="noopener noreferrer">Develeap</a>, DevOps Developer Bootcamp</li>
+                    <li>2025: <a href="https://www.develeap.com/bootcamp/" target="_blank" rel="noopener noreferrer">Develeap</a>, DevOps Expert Bootcamp</li>
                     <li>2023: <a href="https://www.coding-academy.org/" target="_blank" rel="noopener noreferrer">Coding Academy</a>, Full-stack Developer Bootcamp</li>
                     <li>2023: Udemy, Unity Game Developer 2D </li>
                     <li>2017-2019: Ort Hermelin College, Practical Engineer in Electronics and Computer Science</li>
