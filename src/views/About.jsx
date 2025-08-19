@@ -40,7 +40,7 @@ export function About() {
                     <li>2017-2019: Ort Hermelin College, Practical Engineer in Electronics and Computer Science</li>
                 </ul>
 
-                <h2>CERTIFICATIONS:</h2>
+                <h2>Certifications:</h2>
                 <ul>
                     <li>2025: <a href="https://www.credly.com/badges/d29ceab6-0020-42de-a584-059de22a2c80/public_url" target="_blank" rel="noopener noreferrer">AWS Certified Solutions Architect - Associate</a></li>
                 </ul>
