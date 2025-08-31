@@ -43,6 +43,7 @@ export function About() {
                 <h2>Certifications:</h2>
                 <ul>
                     <li>2025: <a href="https://www.credly.com/badges/d29ceab6-0020-42de-a584-059de22a2c80/public_url" target="_blank" rel="noopener noreferrer">AWS Certified Solutions Architect - Associate</a></li>
+                    <li>2025: <a href="https://www.credly.com/badges/681feff1-38be-4380-b35a-b2c3734cef79/public_url" target="_blank" rel="noopener noreferrer">HashiCorp Certified: Terraform Associate (003)</a></li>
                 </ul>
             </section>
         </section>
